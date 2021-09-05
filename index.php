@@ -1,1 +1,1 @@
-<?php echo "hello to ecom web";
+<?php echo "hello to ecom web index file";
