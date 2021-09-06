@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /ecom_web
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(page/|model/|service/|utils/|config/|\.php) - [F,L,NC]
