@@ -1,0 +1,31 @@
+{
+  "name": "ecom/web",
+  "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+  "keywords": ["env", "dotenv", "environment"],
+  "license": "BSD-3-Clause",
+  "authors": [{
+      "name": "Graham Campbell",
+      "email": "hello@gjcampbell.co.uk",
+      "homepage": "https://gjcampbell.co.uk/"
+    },
+    {
+      "name": "Vance Lucas",
+      "email": "vance@vancelucas.com",
+      "homepage": "https://vancelucas.com/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dotenv\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dotenv\\Tests\\": "tests/Dotenv/"
+    }
+  },
+  "require": {
+    "symfony/dotenv": "^5.3",
+    "vlucas/phpdotenv": "^5.3"
+  }
+}

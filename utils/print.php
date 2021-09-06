@@ -1,7 +1,7 @@
 <?php
 class Debug
 {
-  protected static function d($var)
+  public static function d($var)
   {
     switch (gettype($var)) {
       case "integer":
