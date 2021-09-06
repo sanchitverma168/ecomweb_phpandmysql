@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-<?php echo "Hello from page file";
-=======
+
 <?php
 class PagesHandler
 {
@@ -9,4 +7,3 @@ class PagesHandler
     echo "welcome to pages function";
   }
 }
->>>>>>> development
